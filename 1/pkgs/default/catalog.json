@@ -1,0 +1,73 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "hello": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/hgz78d482zgfg0jj5w3686i7s49rpgh0-hello-2.12.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/hgz78d482zgfg0jj5w3686i7s49rpgh0-hello-2.12.1"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program that produces a familiar, friendly greeting",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/applications/misc/hello/default.nix:34",
+                "unfree": false
+              },
+              "name": "hello-2.12.1",
+              "outputs": {
+                "out": "/nix/store/hgz78d482zgfg0jj5w3686i7s49rpgh0-hello-2.12.1"
+              },
+              "pname": "hello",
+              "system": "aarch64-darwin",
+              "version": "2.12.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "hello"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/hgz78d482zgfg0jj5w3686i7s49rpgh0-hello-2.12.1"
+              ],
+              "url": "flake:nixpkgs-flox/d5b4fa110c4b546b7ed51a02d523973a8e075159"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

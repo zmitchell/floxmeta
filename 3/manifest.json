@@ -1,0 +1,16 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.cowsay",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0",
+        "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man"
+      ],
+      "url": "flake:nixpkgs-flox/d5b4fa110c4b546b7ed51a02d523973a8e075159"
+    }
+  ],
+  "version": 2
+}

@@ -1,5 +1,5 @@
 {
-  "currentGen": "2",
+  "currentGen": "3",
   "generations": {
     "1": {
       "created": 1683587664,
@@ -12,11 +12,20 @@
     },
     "2": {
       "created": 1683587849,
-      "lastActive": 1683587849,
+      "lastActive": 1683654719,
       "logMessage": [
         "zmitchell removed stable.nixpkgs-flox.hello"
       ],
       "path": "/nix/store/lfy4pajaa8zww33f8x2za43zzgk5rwbl-floxShell",
+      "version": 2
+    },
+    "3": {
+      "created": 1683654719,
+      "lastActive": 1683654719,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.cowsay"
+      ],
+      "path": "/nix/store/j2a1v7v5v8736cgski7pkbnkhblyjjg3-floxShell",
       "version": 2
     }
   },

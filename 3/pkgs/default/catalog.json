@@ -1,0 +1,81 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "cowsay": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0",
+                "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program which generates ASCII pictures of a cow with a message",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/tools/misc/cowsay/default.nix:40",
+                "unfree": false
+              },
+              "name": "cowsay-3.7.0",
+              "outputs": {
+                "man": "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man",
+                "out": "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0"
+              },
+              "pname": "cowsay",
+              "system": "aarch64-darwin",
+              "version": "3.7.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0",
+                "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man"
+              ],
+              "url": "flake:nixpkgs-flox/d5b4fa110c4b546b7ed51a02d523973a8e075159"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

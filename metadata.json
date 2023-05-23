@@ -1,0 +1,15 @@
+{
+  "currentGen": "1",
+  "generations": {
+    "1": {
+      "created": 1684884780,
+      "lastActive": 1684884780,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.rustc stable.nixpkgs-flox.cargo"
+      ],
+      "path": "/nix/store/bwy4pv9fzy32m3b5y0m5jfnw7g6pchz2-floxShell",
+      "version": 2
+    }
+  },
+  "version": 1
+}

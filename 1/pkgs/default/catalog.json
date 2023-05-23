@@ -1,0 +1,151 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "cargo": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/4mcxajrrmm9rqw5zhhgmc27q5zcbd3x9-cargo-1.67.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "cargo"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/4mcxajrrmm9rqw5zhhgmc27q5zcbd3x9-cargo-1.67.1"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "Downloads your Rust project's dependencies and builds your project",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/compilers/rust/cargo.nix:71",
+                "unfree": false
+              },
+              "name": "cargo-1.67.1",
+              "outputs": {
+                "out": "/nix/store/4mcxajrrmm9rqw5zhhgmc27q5zcbd3x9-cargo-1.67.1"
+              },
+              "pname": "cargo",
+              "system": "aarch64-darwin",
+              "version": "1.67.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "cargo"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/4mcxajrrmm9rqw5zhhgmc27q5zcbd3x9-cargo-1.67.1"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "rustc": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/lkray3q0qjf2zry6jy7k035sz22zp0lp-rustc-1.67.1-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/6cqjg9yv1q6lqmrdshjd07dqrmabc816-rustc-1.67.1-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/jm6s6iv4y43na8ygwr2542k4hk5g9f1q-rustc-1.67.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "rustc"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/jm6s6iv4y43na8ygwr2542k4hk5g9f1q-rustc-1.67.1",
+                "/nix/store/6cqjg9yv1q6lqmrdshjd07dqrmabc816-rustc-1.67.1-man"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A safe, concurrent, practical language",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/compilers/rust/rustc.nix:212",
+                "unfree": false
+              },
+              "name": "rustc-1.67.1",
+              "outputs": {
+                "doc": "/nix/store/lkray3q0qjf2zry6jy7k035sz22zp0lp-rustc-1.67.1-doc",
+                "man": "/nix/store/6cqjg9yv1q6lqmrdshjd07dqrmabc816-rustc-1.67.1-man",
+                "out": "/nix/store/jm6s6iv4y43na8ygwr2542k4hk5g9f1q-rustc-1.67.1"
+              },
+              "pname": "rustc",
+              "system": "aarch64-darwin",
+              "version": "1.67.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "rustc"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/jm6s6iv4y43na8ygwr2542k4hk5g9f1q-rustc-1.67.1",
+                "/nix/store/6cqjg9yv1q6lqmrdshjd07dqrmabc816-rustc-1.67.1-man"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

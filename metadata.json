@@ -1,13 +1,22 @@
 {
-  "currentGen": "1",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1684960772,
-      "lastActive": 1684960772,
+      "lastActive": 1684961873,
       "logMessage": [
         "zmitchell created environment"
       ],
       "path": "/nix/store/lfy4pajaa8zww33f8x2za43zzgk5rwbl-floxShell",
+      "version": 2
+    },
+    "2": {
+      "created": 1684961873,
+      "lastActive": 1684961873,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.python311 stable.nixpkgs-flox.caddy"
+      ],
+      "path": "/nix/store/1kz0mm1g5pvwf9sjgxvx9nh4si6g2zki-floxShell",
       "version": 2
     }
   },

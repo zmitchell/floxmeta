@@ -1,0 +1,138 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "caddy": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "caddy"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/servers/caddy/default.nix:65",
+                "unfree": false
+              },
+              "name": "caddy-2.6.4",
+              "outputs": {
+                "out": "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              },
+              "pname": "caddy",
+              "system": "aarch64-darwin",
+              "version": "2.6.4"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "caddy"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "python311": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "python311"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A high-level dynamically-typed programming language",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/interpreters/python/cpython/default.nix:527",
+                "unfree": false
+              },
+              "name": "python3-3.11.2",
+              "outputs": {
+                "out": "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              },
+              "pname": "python3",
+              "system": "aarch64-darwin",
+              "version": "3.11.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "python311"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

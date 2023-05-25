@@ -1,0 +1,47 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.caddy",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+      ],
+      "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.curl",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/fwn1vjcfff3j4w2icyvxxbks5sxgg7mz-curl-7.88.1-bin",
+        "/nix/store/hhkg5asl8390maz2m7sx61173ncs0813-curl-7.88.1-man"
+      ],
+      "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.jq",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/3xxpk5nhfq92dx5kn63nknbzv9j49yk2-jq-1.6-bin",
+        "/nix/store/pd17jljgplhyz31vgf5z5j6wrp4rlpp3-jq-1.6-man"
+      ],
+      "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.python311",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+      ],
+      "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+    }
+  ],
+  "version": 2
+}

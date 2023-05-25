@@ -1,5 +1,5 @@
 {
-  "currentGen": "38",
+  "currentGen": "39",
   "generations": {
     "1": {
       "created": 1684960772,
@@ -282,11 +282,20 @@
     },
     "38": {
       "created": 1685048635,
-      "lastActive": 1685048635,
+      "lastActive": 1685048649,
       "logMessage": [
         "zmitchell installed stable.nixpkgs-flox.procps"
       ],
       "path": "/nix/store/x2rfand1mk8g66kqmihqq5a4bb6zb585-floxShell",
+      "version": 2
+    },
+    "39": {
+      "created": 1685048649,
+      "lastActive": 1685048649,
+      "logMessage": [
+        "zmitchell edited declarative profile (generation 39)"
+      ],
+      "path": "/nix/store/51ypbv0nmj2h168lprn6p6dc84781gcz-floxShell",
       "version": 2
     },
     "4": {

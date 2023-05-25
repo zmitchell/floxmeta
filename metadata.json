@@ -1,5 +1,5 @@
 {
-  "currentGen": "6",
+  "currentGen": "5",
   "generations": {
     "1": {
       "created": 1684960772,
@@ -48,7 +48,7 @@
     },
     "6": {
       "created": 1684972860,
-      "lastActive": 1684972860,
+      "lastActive": 1684974026,
       "logMessage": [
         "zmitchell edited declarative profile (generation 6)"
       ],

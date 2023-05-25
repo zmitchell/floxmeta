@@ -1,5 +1,5 @@
 {
-  "currentGen": "12",
+  "currentGen": "13",
   "generations": {
     "1": {
       "created": 1684960772,
@@ -30,11 +30,20 @@
     },
     "12": {
       "created": 1685044602,
-      "lastActive": 1685044602,
+      "lastActive": 1685044757,
       "logMessage": [
         "zmitchell edited declarative profile (generation 12)"
       ],
       "path": "/nix/store/6080cqvwaw22wfm74icga2frvwvdsv1z-floxShell",
+      "version": 2
+    },
+    "13": {
+      "created": 1685044757,
+      "lastActive": 1685044757,
+      "logMessage": [
+        "zmitchell edited declarative profile (generation 13)"
+      ],
+      "path": "/nix/store/8jwh95lw6kjbgn1jvkb6lwm7ah6j9766-floxShell",
       "version": 2
     },
     "2": {

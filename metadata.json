@@ -1,5 +1,5 @@
 {
-  "currentGen": "29",
+  "currentGen": "30",
   "generations": {
     "1": {
       "created": 1684960772,
@@ -192,7 +192,7 @@
     },
     "29": {
       "created": 1685047603,
-      "lastActive": 1685047603,
+      "lastActive": 1685047764,
       "logMessage": [
         "zmitchell edited declarative profile (generation 29)"
       ],
@@ -206,6 +206,15 @@
         "zmitchell removed stable.nixpkgs-flox.caddy"
       ],
       "path": "/nix/store/nsyxkzz62dnn3f9z909ajjxqnxsyq1ab-floxShell",
+      "version": 2
+    },
+    "30": {
+      "created": 1685047764,
+      "lastActive": 1685047764,
+      "logMessage": [
+        "zmitchell edited declarative profile (generation 30)"
+      ],
+      "path": "/nix/store/7q0dg2vfss7zl3vqpkx2c34iqahl4vyi-floxShell",
       "version": 2
     },
     "4": {

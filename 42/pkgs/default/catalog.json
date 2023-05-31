@@ -1,0 +1,384 @@
+{
+  "nixpkgs-flox": {
+    "aarch64-darwin": {
+      "stable": {
+        "caddy": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "caddy"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/servers/caddy/default.nix:65",
+                "unfree": false
+              },
+              "name": "caddy-2.6.4",
+              "outputs": {
+                "out": "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              },
+              "pname": "caddy",
+              "system": "aarch64-darwin",
+              "version": "2.6.4"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "caddy"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/40g0yw5688485brna0bgfbnd5facaw5n-caddy-2.6.4"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "curl": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/fwn1vjcfff3j4w2icyvxxbks5sxgg7mz-curl-7.88.1-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/xwyd0gwzxgq37y6ra1b6l19m0f4822n0-curl-7.88.1-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/m0mckyrdhq4zvpgifrhpjyfyv8ri3wds-curl-7.88.1-devdoc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/hhkg5asl8390maz2m7sx61173ncs0813-curl-7.88.1-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/gq1qpy903hph92bs7j2zlmk2ba9c5576-curl-7.88.1",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "curl"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/fwn1vjcfff3j4w2icyvxxbks5sxgg7mz-curl-7.88.1-bin",
+                "/nix/store/hhkg5asl8390maz2m7sx61173ncs0813-curl-7.88.1-man"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A command line tool for transferring files with URL syntax",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/tools/networking/curl/default.nix:188",
+                "unfree": false
+              },
+              "name": "curl-7.88.1",
+              "outputs": {
+                "bin": "/nix/store/fwn1vjcfff3j4w2icyvxxbks5sxgg7mz-curl-7.88.1-bin",
+                "dev": "/nix/store/xwyd0gwzxgq37y6ra1b6l19m0f4822n0-curl-7.88.1-dev",
+                "devdoc": "/nix/store/m0mckyrdhq4zvpgifrhpjyfyv8ri3wds-curl-7.88.1-devdoc",
+                "man": "/nix/store/hhkg5asl8390maz2m7sx61173ncs0813-curl-7.88.1-man",
+                "out": "/nix/store/gq1qpy903hph92bs7j2zlmk2ba9c5576-curl-7.88.1"
+              },
+              "pname": "curl",
+              "system": "aarch64-darwin",
+              "version": "7.88.1"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "curl"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/fwn1vjcfff3j4w2icyvxxbks5sxgg7mz-curl-7.88.1-bin",
+                "/nix/store/hhkg5asl8390maz2m7sx61173ncs0813-curl-7.88.1-man"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "jq": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/3xxpk5nhfq92dx5kn63nknbzv9j49yk2-jq-1.6-bin",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/166047mz0a9p9hp536xpdf6fazh0jlga-jq-1.6-dev",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/d9cw7m0wgf9jd5403ad69kairvqi4viy-jq-1.6-doc",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/48ss3h5msfl02c5liflk1d3kf3yryzwd-jq-1.6-lib",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/pd17jljgplhyz31vgf5z5j6wrp4rlpp3-jq-1.6-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/91mmzz0mlmd0mvdj15n0kqkrbq6iak42-jq-1.6",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "jq"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/3xxpk5nhfq92dx5kn63nknbzv9j49yk2-jq-1.6-bin",
+                "/nix/store/pd17jljgplhyz31vgf5z5j6wrp4rlpp3-jq-1.6-man"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A lightweight and flexible command-line JSON processor",
+                "outputsToInstall": [
+                  "bin",
+                  "man"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/tools/jq/default.nix:63",
+                "unfree": false
+              },
+              "name": "jq-1.6",
+              "outputs": {
+                "bin": "/nix/store/3xxpk5nhfq92dx5kn63nknbzv9j49yk2-jq-1.6-bin",
+                "dev": "/nix/store/166047mz0a9p9hp536xpdf6fazh0jlga-jq-1.6-dev",
+                "doc": "/nix/store/d9cw7m0wgf9jd5403ad69kairvqi4viy-jq-1.6-doc",
+                "lib": "/nix/store/48ss3h5msfl02c5liflk1d3kf3yryzwd-jq-1.6-lib",
+                "man": "/nix/store/pd17jljgplhyz31vgf5z5j6wrp4rlpp3-jq-1.6-man",
+                "out": "/nix/store/91mmzz0mlmd0mvdj15n0kqkrbq6iak42-jq-1.6"
+              },
+              "pname": "jq",
+              "system": "aarch64-darwin",
+              "version": "1.6"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "jq"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/3xxpk5nhfq92dx5kn63nknbzv9j49yk2-jq-1.6-bin",
+                "/nix/store/pd17jljgplhyz31vgf5z5j6wrp4rlpp3-jq-1.6-man"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "procps": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/pcfvy0366qr4qs433133g21b0cswpqnm-procps-1003.1-2008",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "procps"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/pcfvy0366qr4qs433133g21b0cswpqnm-procps-1003.1-2008"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/build-support/trivial-builders.nix:87",
+                "unfree": false
+              },
+              "name": "procps-1003.1-2008",
+              "outputs": {
+                "out": "/nix/store/pcfvy0366qr4qs433133g21b0cswpqnm-procps-1003.1-2008"
+              },
+              "pname": null,
+              "system": "aarch64-darwin",
+              "version": "unknown"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "procps"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/pcfvy0366qr4qs433133g21b0cswpqnm-procps-1003.1-2008"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        },
+        "python311": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "aarch64-darwin",
+                "python311"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              ],
+              "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+            },
+            "eval": {
+              "meta": {
+                "description": "A high-level dynamically-typed programming language",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/interpreters/python/cpython/default.nix:527",
+                "unfree": false
+              },
+              "name": "python3-3.11.2",
+              "outputs": {
+                "out": "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              },
+              "pname": "python3",
+              "system": "aarch64-darwin",
+              "version": "3.11.2"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "aarch64-darwin",
+                "stable",
+                "python311"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/as94zpb4h04b2mgfws9ifpy22minq51h-python3-3.11.2"
+              ],
+              "url": "flake:nixpkgs-flox/91fac666cf98d81798249b37ea7a79128df7b731"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1679262748,
+                "revCount": 466020
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "elements": [
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.flox-prerelease",
+      "originalUrl": "flake:flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/65zzmbxgg5x028picq5lzyjxr9wjqp7k-flox-prerelease-0.2.0-r489",
+        "/nix/store/442pnxsijwkgdswasblrxlq12nhrcf1y-flox-prerelease-0.2.0-r489-man"
+      ],
+      "url": "flake:flox/a865ae5bf39a7424b206333398b38cb6ffc72c65"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.cowsay",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/2yvmv7ip4y1pk3bk8ybpsvw3687xq3j0-cowsay-3.7.0",
+        "/nix/store/1lgzmd8771a80capr3yslrshlbfp4fsf-cowsay-3.7.0-man"
+      ],
+      "url": "flake:nixpkgs-flox/d5b4fa110c4b546b7ed51a02d523973a8e075159"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.curl",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/7qwsslwdrjyg8hs654nsqpq7lly6dhq5-curl-8.0.1-bin",
+        "/nix/store/m4ddb23mjq5c29gh5jq06d7c69fbd1s1-curl-8.0.1-man"
+      ],
+      "url": "flake:nixpkgs-flox/b106c2d78d4258d781488743178a6ec63dc555ba"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.jq",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/4pnvf23wkmph5adfa85qxrqwnp3qskj4-jq-1.6-bin",
+        "/nix/store/zhhb2g7vcmwssjyzkr4x0g477dzyypd0-jq-1.6-man"
+      ],
+      "url": "flake:nixpkgs-flox/b106c2d78d4258d781488743178a6ec63dc555ba"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.pup",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/zx5ihifdzdbisf3a96l6bjdz7m0khw1y-pup-unstable-2019-09-19"
+      ],
+      "url": "flake:nixpkgs-flox/b106c2d78d4258d781488743178a6ec63dc555ba"
+    },
+    {
+      "active": true,
+      "attrPath": "evalCatalog.aarch64-darwin.stable.tealdeer",
+      "originalUrl": "flake:nixpkgs-flox",
+      "outputs": null,
+      "storePaths": [
+        "/nix/store/wjh8sfbai3aclbm76wpi7xdzn4gk0718-tealdeer-1.6.1"
+      ],
+      "url": "flake:nixpkgs-flox/b106c2d78d4258d781488743178a6ec63dc555ba"
+    }
+  ],
+  "version": 2
+}

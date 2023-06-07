@@ -1,5 +1,5 @@
 {
-  "currentGen": "9",
+  "currentGen": "10",
   "generations": {
     "1": {
       "created": 1683587664,
@@ -8,6 +8,15 @@
         "zmitchell installed stable.nixpkgs-flox.hello"
       ],
       "path": "/nix/store/l0dz8hzp8icrl5qv2a0bn6a707g1rgdh-floxShell",
+      "version": 2
+    },
+    "10": {
+      "created": 1686169285,
+      "lastActive": 1686169285,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.tealdeer"
+      ],
+      "path": "/nix/store/59akwjl3qbzq7431i827ll22vvvwcdwx-floxShell",
       "version": 2
     },
     "2": {
@@ -75,7 +84,7 @@
     },
     "9": {
       "created": 1686169280,
-      "lastActive": 1686169280,
+      "lastActive": 1686169285,
       "logMessage": [
         "zmitchell removed stable.nixpkgs-flox.tealdeer"
       ],

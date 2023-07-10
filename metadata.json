@@ -1,5 +1,5 @@
 {
-  "currentGen": "11",
+  "currentGen": "12",
   "generations": {
     "1": {
       "created": 1683587664,
@@ -21,11 +21,20 @@
     },
     "11": {
       "created": 1687888192,
-      "lastActive": 1687888192,
+      "lastActive": 1689000327,
       "logMessage": [
         "zmitchell installed stable.nixpkgs-flox.yubikey-manager"
       ],
       "path": "/nix/store/zb4ar6cz3hyc8p1sj9ldwzm39d1nviz6-floxShell",
+      "version": 2
+    },
+    "12": {
+      "created": 1689000327,
+      "lastActive": 1689000327,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.openssh"
+      ],
+      "path": "/nix/store/daskhpkc2jp7v9fp9iv6l44lwnm5mdkw-floxShell",
       "version": 2
     },
     "2": {

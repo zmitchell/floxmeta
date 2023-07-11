@@ -1,0 +1,15 @@
+{
+  "currentGen": "1",
+  "generations": {
+    "1": {
+      "created": 1689113443,
+      "lastActive": 1689113443,
+      "logMessage": [
+        "zmitchell installed stable.nixpkgs-flox.pup"
+      ],
+      "path": "/nix/store/chg6jxhjl7ddpy6m56knf74w4xcpcdlr-floxShell",
+      "version": 2
+    }
+  },
+  "version": 1
+}

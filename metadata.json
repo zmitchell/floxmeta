@@ -1,5 +1,5 @@
 {
-  "currentGen": "3",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1684426924,
@@ -21,7 +21,7 @@
     },
     "3": {
       "created": 1689109943,
-      "lastActive": 1689109943,
+      "lastActive": 1689113816,
       "logMessage": [
         "floxem installed stable.nixpkgs-flox.ripgrep"
       ],

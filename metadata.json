@@ -1,5 +1,5 @@
 {
-  "currentGen": "2",
+  "currentGen": "3",
   "generations": {
     "1": {
       "created": 1684426924,
@@ -12,11 +12,20 @@
     },
     "2": {
       "created": 1689109289,
-      "lastActive": 1689109289,
+      "lastActive": 1689109943,
       "logMessage": [
         "floxem installed stable.nixpkgs-flox.pup"
       ],
       "path": "/nix/store/8na5i76ldkyi18589q4yqpqv57b07nx2-floxShell",
+      "version": 2
+    },
+    "3": {
+      "created": 1689109943,
+      "lastActive": 1689109943,
+      "logMessage": [
+        "floxem installed stable.nixpkgs-flox.ripgrep"
+      ],
+      "path": "/nix/store/hjd7w4jpspdcvy7avxgxi892df5cg2nr-floxShell",
       "version": 2
     }
   },

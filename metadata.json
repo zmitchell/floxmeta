@@ -1,5 +1,5 @@
 {
-  "currentGen": "3",
+  "currentGen": "2",
   "generations": {
     "1": {
       "created": 1689200690,
@@ -21,7 +21,7 @@
     },
     "3": {
       "created": 1689639905,
-      "lastActive": 1689639905,
+      "lastActive": 1689641021,
       "logMessage": [
         "floxem installed unstable.nixpkgs-flox.cowsay"
       ],

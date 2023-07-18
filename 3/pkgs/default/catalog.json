@@ -1,0 +1,148 @@
+{
+  "nixpkgs-flox": {
+    "x86_64-linux": {
+      "stable": {
+        "bat": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/ggjpfqnpz10qxfd18xd3r8sx50m6pnji-bat-0.23.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "bat"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/ggjpfqnpz10qxfd18xd3r8sx50m6pnji-bat-0.23.0"
+              ],
+              "url": "github:flox/nixpkgs/f742512ccc99e6ac457d6d4ddce78f283c4bbfde"
+            },
+            "eval": {
+              "meta": {
+                "description": "A cat(1) clone with syntax highlighting and Git integration",
+                "outputsToInstall": [
+                  "out"
+                ],
+                "position": "/nix/store/3wla32r0vf8370p5y1zw1hk06914myvq-source/pkgs/tools/misc/bat/default.nix:57",
+                "unfree": false
+              },
+              "name": "bat-0.23.0",
+              "outputs": {
+                "out": "/nix/store/ggjpfqnpz10qxfd18xd3r8sx50m6pnji-bat-0.23.0"
+              },
+              "pname": "bat",
+              "system": "x86_64-linux",
+              "version": "0.23.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "stable",
+                "bat"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/ggjpfqnpz10qxfd18xd3r8sx50m6pnji-bat-0.23.0"
+              ],
+              "url": "flake:nixpkgs-flox/b1768bf1db771132d0d4f3693c5811020cc3fc62"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1687661089,
+                "revCount": 497708
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      },
+      "unstable": {
+        "cowsay": {
+          "latest": {
+            "cache": [
+              {
+                "cacheUrl": "https://cache.nixos.org",
+                "narinfo": [
+                  {
+                    "path": "/nix/store/8rmvapz60184lwqrzrihlxg2w98n6x5a-cowsay-3.7.0-man",
+                    "valid": true
+                  },
+                  {
+                    "path": "/nix/store/gg8hqcrzcyh070489l8m7wdiwxx2hhrz-cowsay-3.7.0",
+                    "valid": true
+                  }
+                ]
+              }
+            ],
+            "element": {
+              "attrPath": [
+                "legacyPackages",
+                "x86_64-linux",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs",
+              "storePaths": [
+                "/nix/store/gg8hqcrzcyh070489l8m7wdiwxx2hhrz-cowsay-3.7.0",
+                "/nix/store/8rmvapz60184lwqrzrihlxg2w98n6x5a-cowsay-3.7.0-man"
+              ],
+              "url": "github:flox/nixpkgs/645ff62e09d294a30de823cb568e9c6d68e92606"
+            },
+            "eval": {
+              "meta": {
+                "description": "A program which generates ASCII pictures of a cow with a message",
+                "outputsToInstall": [
+                  "out",
+                  "man"
+                ],
+                "position": "/nix/store/aw6kmwd8a02n2c1wysrfk2q31brlmqdz-source/pkgs/tools/misc/cowsay/default.nix:46",
+                "unfree": false
+              },
+              "name": "cowsay-3.7.0",
+              "outputs": {
+                "man": "/nix/store/8rmvapz60184lwqrzrihlxg2w98n6x5a-cowsay-3.7.0-man",
+                "out": "/nix/store/gg8hqcrzcyh070489l8m7wdiwxx2hhrz-cowsay-3.7.0"
+              },
+              "pname": "cowsay",
+              "system": "x86_64-linux",
+              "version": "3.7.0"
+            },
+            "publish_element": {
+              "attrPath": [
+                "evalCatalog",
+                "x86_64-linux",
+                "unstable",
+                "cowsay"
+              ],
+              "originalUrl": "flake:nixpkgs-flox",
+              "storePaths": [
+                "/nix/store/gg8hqcrzcyh070489l8m7wdiwxx2hhrz-cowsay-3.7.0",
+                "/nix/store/8rmvapz60184lwqrzrihlxg2w98n6x5a-cowsay-3.7.0-man"
+              ],
+              "url": "flake:nixpkgs-flox/ade75fc1f697f7ffc0b1ba48dd177f659fd135bd"
+            },
+            "source": {
+              "locked": {
+                "lastModified": 1688231357,
+                "revCount": 500267
+              }
+            },
+            "type": "catalogRender",
+            "version": 1
+          }
+        }
+      }
+    }
+  }
+}
